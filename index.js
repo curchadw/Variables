@@ -39,11 +39,11 @@ console.log(num)
 
 console.log(num*num)
 
-let name2 = "Curtis";
+let name2;
 
 let studentId = 4;
 
-let myFunction = function(name2, studentId) {
+let myFunction = function(name2 ='Curtis' , studentId) {
   return `name: ${name2}, studentID: " + ${studentId}`;
 };
 
@@ -54,6 +54,7 @@ console.log(studentId); 	// What is the output?
 console.log(myFunction(name2, studentId)); 	// What is the output?
 
 console.log(myFunction("Jeff", 7)); 	// What is the output?
+
 
 
 
