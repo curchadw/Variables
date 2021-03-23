@@ -39,29 +39,26 @@ console.log(num)
 
 console.log(num*num)
 
-let name2;
+// let name2;
 
-let studentId = 4;
+// let studentId = 4;
 
-let myFunction = function(name2 ='Curtis' , studentId) {
-  return `name: ${name2}, studentID: " + ${studentId}`;
-};
+// let myFunction = function(name2 ='Curtis' , studentId) {
+//   return `name: ${name2}, studentID: " + ${studentId}`;
+// };
 
-console.log(name2); 		// What is the output?
+// console.log(name2); 		// What is the output?
 
-console.log(studentId); 	// What is the output?
+// console.log(studentId); 	// What is the output?
 
-console.log(myFunction(name2, studentId)); 	// What is the output?
+// console.log(myFunction(name2, studentId)); 	// What is the output?
 
-console.log(myFunction("Jeff", 7)); 	// What is the output?
-
-let weekDay;
-
-weekDay = 9
-
-const dayOfTheWeek = (weekDay)=>{
+// console.log(myFunction("Jeff", 7)); 	// What is the output?
 
 
+
+
+const day = (weekDay) =>{
 if(weekDay === 0)
   console.log('Sun')
 else if(weekDay === 1)
@@ -78,7 +75,7 @@ else if(weekDay === 6)
   console.log('Sat')
 else
   console.log('Maybe on another planet')
-
 }
+
 
 
