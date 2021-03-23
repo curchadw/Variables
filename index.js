@@ -77,5 +77,13 @@ else
   console.log('Maybe on another planet')
 }
 
+let name3 = 'Curtis';
+
+if(name3 === 'Elliot')
+  console.log('The youngest student in FSM')
+else if(name3 === 'Naz' || name === 'Daniel')
+  console.log("They are teachers")
+else
+  console.log('Likely a student')
 
 
