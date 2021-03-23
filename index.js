@@ -55,7 +55,30 @@ console.log(myFunction(name2, studentId)); 	// What is the output?
 
 console.log(myFunction("Jeff", 7)); 	// What is the output?
 
+let weekDay;
+
+weekDay = 9
+
+const dayOfTheWeek = (weekDay)=>{
 
 
+if(weekDay === 0)
+  console.log('Sun')
+else if(weekDay === 1)
+  console.log('Mon')
+else if(weekDay === 2)
+  console.log('Tues')
+else if(weekDay === 3)
+  console.log('Wed')
+else if(weekDay === 4)
+  console.log('Thurs')
+else if(weekDay === 5)
+  console.log('Fri')
+else if(weekDay === 6)
+  console.log('Sat')
+else
+  console.log('Maybe on another planet')
+
+}
 
 
